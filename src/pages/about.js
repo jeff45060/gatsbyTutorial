@@ -1,9 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
-export default function Home() {
+
+const about = () => {
   return (
     <Layout>
-      <h1>Home Page</h1>
+      <h2>Hello from about page</h2>
     </Layout>
   )
 }
+
+export default about
